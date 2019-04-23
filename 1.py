@@ -19,7 +19,8 @@ import re
 import csv
 import pickle
 
-inputfile='/nobackup/agodbole/Consumer_Complaints.csv'
+inputfile='/nobackup/agodbole/Consumer_Complaints.csv'   
+#### Consumer_Complaints.csv is the CFPB Complaints dataset: https://www.consumerfinance.gov/data-research/consumer-complaints/#download-the-data
 outputfile='/nobackup/agodbole/allproccomplaint.txt'
 
 most_punctuation='[!"#@&\()*+,-./:;<=>?[\\]^_`{|}~]' # excluded  ' $ %
