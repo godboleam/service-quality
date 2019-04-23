@@ -24,7 +24,8 @@ python-levenshtein
 python-twitter
 nltk 3.2.5
 
-## C. Data: In order to replicate the results the interested persons will need to 
+## C. Data: 
+The Consumer Financial Protection Bureau (CFPB) Complaints Dataset is available at https://www.consumerfinance.gov/data-research/consumer-complaints/ ; the World Well-Being Project correlations between each of the five personality traits (on bipolar scales) and words associated with that traits are available here: http://wwbp.org/data.html ; and the TREC 2011 Microblog Dataset which requires an agreement to be signed is available here: https://trec.nist.gov/data/tweets/
 
 ## D. The Python code is organized in the following files:
 1.py: pre-process the complaint narrative text  
@@ -45,4 +46,5 @@ IUAnywhere SAS9.4. The data (RxC contingency table) is embedded in the code. The
 the IND library. The tests in the case case of mortgage loan Complaint Topic Trait Spaces take around 20 minutes each for Funk SVD and 
 Hybrid methods (on IUAnywhere).
 
-## F. Citation Request: If you find anything in this repository helpful please cite our paper: Aniruddha M. Godbole and David J. Crandall. 2019. Empowering Borrowers in their choice of Lenders: Decoding Service Quality from Customer Complaints. In ACM Web Science 2019.
+## F. Citation Request: If you find anything in this repository helpful please cite our paper: 
+Aniruddha M. Godbole and David J. Crandall. 2019. Empowering Borrowers in their choice of Lenders: Decoding Service Quality from Customer Complaints. In ACM Web Science 2019.
