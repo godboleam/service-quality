@@ -1,15 +1,16 @@
-## A. 'Empowering Borrowers in their choice of Lenders: Decoding Service Quality from Customer Complaints' in WebSci'19.
-##  Authors: Aniruddha M Godbole and David Crandall
+## Aniruddha M. Godbole and David J. Crandall. 2019. Empowering Borrowers in their choice of Lenders: Decoding Service Quality from Customer Complaints. In ACM Web Science 2019.
+
+##  Authors: Aniruddha M Godbole and David J. Crandall https://www.cs.indiana.edu/~djcran/
 This research was undertaken as DSCI D 699 Independent Study in Data Science (Fall 2018) at 
 the School of Informatics, Computing, and Engineering, Indiana University; Advisor: Professor David Crandall
 
-## B. Acknowledgements
+## A. Acknowledgements
 1. We acknowledge that one of the authors first heard about the belief regarding the asymmetrical effect of loss/gain associated with pain/joy from A. V. Rajwade (1936-2018). Any errors in this interpretation are solely ours.
 2. We acknowledge the help received from Maciej Kula about the appropriate class in the Spotlight library that could be modified for adding more layers to the neural network. 
 3. This research was supported in part by Lilly Endowment, Inc., through its support for the Indiana University Pervasive Technology Institute, and in part by the Indiana METACyt Initiative. The Indiana METACyt Initiative at IU was also supported in part by Lilly Endowment, Inc.
 
 
-## C. Libraries:The following libraries are required for running the code 
+## B. Libraries:The following libraries are required for running the code 
 (other than the following common libraries: pandas,numpy,csv,os,operator,warnings,json,gzip,pickle,string,re,matplotlib):
 torch 0.4.1
 scikit-surprise-1.0.6
@@ -23,9 +24,9 @@ python-levenshtein
 python-twitter
 nltk 3.2.5
 
-## D. Data: In order to replicate the results the interested persons will need to 
+## C. Data: In order to replicate the results the interested persons will need to 
 
-## E. The Python code is organized in the following files:
+## D. The Python code is organized in the following files:
 1.py: pre-process the complaint narrative text  
 2.py: create complaints language word embeddings
 3.py: pre-process the English tweets text
@@ -35,13 +36,13 @@ nltk 3.2.5
 6A.ipynb: create the proxy trait representative vector
 6B.py: compute the 160 scores (150 topic scores and 10 proxy trait scores) for each complaint/complainant.
 7.ipynb: Build Complaint Topic Trait Space for the three types of loans using Funk SVD and 
-Build Complaint Topic Trait Space for the three types of loans using the Hybrid method. Find top 5 and bottom 5 lenders for an hypothetical
-user. Note: Credentials for using the Twitter API (via python-twitter) will be required for running this Notebook. 
+Build Complaint Topic Trait Space for the three types of loans using the Hybrid method. Find top 5 and bottom 5 lenders for an hypothetical user. 
+Note: Credentials for using the Twitter API (via python-twitter) will be required for running this Notebook. 
 
-## F. The SAS code is available in the SAScode folder. There is a seprate program for applying the Freeman and Halton Exact test using 
+## E. The SAS code is available in the SAScode folder. There is a seprate program for applying the Freeman and Halton Exact test using 
 Monte Carlo simulation for the six Complaint Topic Trait Spaces. The SAS output is also available in this folder. The SAS code was run on 
 IUAnywhere SAS9.4. The data (RxC contingency table) is embedded in the code. The folder containing the SAS code needs to be designated as 
 the IND library. The tests in the case case of mortgage loan Complaint Topic Trait Spaces take around 20 minutes each for Funk SVD and 
 Hybrid methods (on IUAnywhere).
 
-## G. Citation Request: If you find anything in this repository useful you are urged to cite _________
+## F. Citation Request: If you find anything in this repository helpful please cite our paper: Aniruddha M. Godbole and David J. Crandall. 2019. Empowering Borrowers in their choice of Lenders: Decoding Service Quality from Customer Complaints. In ACM Web Science 2019.
