@@ -1,6 +1,6 @@
 ## Aniruddha M. Godbole and David J. Crandall. 2019. Empowering Borrowers in their choice of Lenders: Decoding Service Quality from Customer Complaints. In ACM Web Science 2019.
 
-##  Authors: Aniruddha M Godbole and David J. Crandall https://www.cs.indiana.edu/~djcran/
+##  Authors: Aniruddha M. Godbole and David J. Crandall https://www.cs.indiana.edu/~djcran/
 This research was undertaken as DSCI D 699 Independent Study in Data Science (Fall 2018) at 
 the School of Informatics, Computing, and Engineering, Indiana University; Advisor: Professor David Crandall
 
