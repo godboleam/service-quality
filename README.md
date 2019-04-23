@@ -28,7 +28,7 @@ nltk 3.2.5
 The Consumer Financial Protection Bureau (CFPB) Complaints Dataset is available at https://www.consumerfinance.gov/data-research/consumer-complaints/ ; the World Well-Being Project correlations between each of the five personality traits (on bipolar scales) and words associated with that traits are available here: http://wwbp.org/data.html ; and the TREC 2011 Microblog Dataset which requires an agreement to be signed is available here: https://trec.nist.gov/data/tweets/
 
 ## D. The Python code is organized in the following files:
-1.py: pre-process the complaint narrative text  
+1.py: pre-process the complaint narrative text
 2.py: create complaints language word embeddings
 3.py: pre-process the English tweets text
 4.py: create tweets language word embeddings
