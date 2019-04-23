@@ -40,11 +40,10 @@ The Consumer Financial Protection Bureau (CFPB) Complaints Dataset is available 
 Build Complaint Topic Trait Space for the three types of loans using the Hybrid method. Find top 5 and bottom 5 lenders for an hypothetical user. 
 Note: Credentials for using the Twitter API (via python-twitter) will be required for running this Notebook. 
 
-## E. The SAS code is available in the SAScode folder. There is a seprate program for applying the Freeman and Halton Exact test using 
-Monte Carlo simulation for the six Complaint Topic Trait Spaces. The SAS output is also available in this folder. The SAS code was run on 
-IUAnywhere SAS9.4. The data (RxC contingency table) is embedded in the code. The folder containing the SAS code needs to be designated as 
+## E. The SAS code is available in the SAScode folder. 
+There is a seprate program for applying the Freeman and Halton Exact test using Monte Carlo simulation for each of the six Complaint Topic Trait Spaces. The SAS output is also available in this folder. The SAS code was run on SAS9.4. The data (RxC contingency table) is embedded in the code. The folder containing the SAS code needs to be designated as 
 the IND library. The tests in the case case of mortgage loan Complaint Topic Trait Spaces take around 20 minutes each for Funk SVD and 
-Hybrid methods (on IUAnywhere).
+Hybrid methods...
 
 ## F. Citation Request: If you find anything in this repository helpful please cite our paper: 
 Aniruddha M. Godbole and David J. Crandall. 2019. Empowering Borrowers in their choice of Lenders: Decoding Service Quality from Customer Complaints. In ACM Web Science 2019.
