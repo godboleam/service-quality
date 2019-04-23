@@ -1,9 +1,10 @@
 ## A. 'Empowering Borrowers in their choice of Lenders: Decoding Service Quality from Customer Complaints' in WebSci'19.
 ##  Authors: Aniruddha M Godbole and David Crandall
-## This research was undertaken as DSCI D 699 Independent Study in Data Science (Fall 2018) at 
-## the School of Informatics, Computing, and Engineering, Indiana University; Advisor: Professor David Crandall
+This research was undertaken as DSCI D 699 Independent Study in Data Science (Fall 2018) at 
+the School of Informatics, Computing, and Engineering, Indiana University; Advisor: Professor David Crandall
 
-## B. Libraries:The following libraries are required for running the code (other than the following common libraries: pandas,numpy,csv,os,operator,warnings,json,gzip,pickle,string,re,matplotlib):
+## B. Libraries:The following libraries are required for running the code 
+(other than the following common libraries: pandas,numpy,csv,os,operator,warnings,json,gzip,pickle,string,re,matplotlib):
 torch 0.4.1
 scikit-surprise-1.0.6
 spotlight 0.1.5
